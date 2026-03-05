@@ -9,10 +9,16 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## Common Commands
 
 ```bash
+# 使用 npm
 npm run dev      # 启动开发服务器
 npm run build    # 构建生产版本
 npm run format   # 代码格式化 (prettier)
 npm run setup    # UmiJS 初始化
+
+# 使用 bun (更快)
+bun install      # 安装依赖
+bun run dev      # 启动开发服务器
+bun run build    # 构建生产版本
 ```
 
 ## Architecture
