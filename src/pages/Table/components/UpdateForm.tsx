@@ -126,7 +126,7 @@ const UpdateForm: React.FC<UpdateFormProps> = (props) => (
       />
       <ProFormSelect
         name="frequency"
-        label="监控对象"
+        label="调度频率"
         width="xs"
         valueEnum={{
           month: '月',

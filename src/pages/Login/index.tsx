@@ -53,7 +53,6 @@ const LoginPage: React.FC = () => {
           className={styles.form}
           layout="vertical"
           size="large"
-          initialValues={{ username: 'admin', password: '123456' }}
         >
           <Form.Item
             name="username"

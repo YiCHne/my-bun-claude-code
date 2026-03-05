@@ -15,7 +15,7 @@ const CreateForm: React.FC<PropsWithChildren<CreateFormProps>> = (props) => {
       title="新建"
       width={420}
       open={modalVisible}
-      onCancel={() => onCancel()}
+      onCancel={onCancel}
       footer={null}
     >
       {props.children}
