@@ -1,0 +1,72 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.infoCard {
+  border-radius: 12px;
+  background: linear-gradient(
+    135deg,
+    rgba(102, 126, 234, 5%) 0%,
+    rgba(118, 75, 162, 5%) 100%
+  );
+}
+
+.avatarSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 0;
+}
+
+.avatarWrapper {
+  position: relative;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.avatarWrapper:hover .avatarMask {
+  opacity: 1;
+}
+
+.avatarMask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 50%);
+  border-radius: 50%;
+  color: white;
+  opacity: 0;
+  transition: all 0.3s;
+  font-size: 12px;
+}
+
+.avatarMask span {
+  margin-top: 4px;
+}
+
+.username {
+  margin-top: 16px !important;
+  margin-bottom: 4px !important;
+}
+
+.descriptions {
+  margin-top: 16px;
+}
+
+.formCard {
+  border-radius: 12px;
+}
+
+.passwordForm {
+  max-width: 400px;
+  margin-top: 16px;
+}
